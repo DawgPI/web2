@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,500;0,700;1,700&display=swap');
+:root {
+ --Albastru-pal: hsl(225, 100%, 94%);
+--Albastru-deschis: hsl(245, 75%, 52%);
+--foarte-pal-albastru: hsl(225, 100%, 98%);
+--desaturat-albastru: hsl(224, 23%, 55%);
+--inchis-albastru: hsl(223, 47%, 23%);
+
+}
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/backround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--foarte-pal-albastru);
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+
+.componenta1{
+    width: 450px;
+    background-color: white;
+    color: var(--desaturat-albastru);
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.titlu{
+ color:rgb(55, 151, 234);
+ font-weight: 900;
+ font-size: 32px;
+}
+
+.trioptRo {
+    width: 450px;
+    height: 220px;
+}
+
+.container{
+    padding: 30px;
+}
+
+.container > * {
+    margin 13px 0;
+}
+
+.descriere{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.proceed-button {
+    background-color: var(--Albastru-deschis);
+    padding: 1rem 0;
+    color: white;
+    box-shadow: 0 20px 30px -8px rgb(197 189 245);
+}
+
+.proceed-button:hover {
+    opacity: 0.8;
+}
+
+.cariere-button {
+    background-color: white;
+    color: var(--desaturat-albastru);
+    margin-top: 22px;
+}
+
+.cariere-button:hover {
+   color:black 
+}
